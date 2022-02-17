@@ -14,5 +14,9 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    /* takes size of cookie and moves it back for the x and for the y */
     transform: translate(-50%, -50%);
+    color: white;
+    /* to move cookie and text side by side */
+    display: flex;
 }
