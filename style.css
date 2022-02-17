@@ -25,6 +25,9 @@ body{
     border-radius: 1.2rem;
     padding: 1rem;
     font-family: "Lato";
+    /* drops everything vertically */
+    align-items: center;
+    justify-content: space-between;
 
 }
 
@@ -36,6 +39,7 @@ body{
 .cookie-subtitle {
     font-weight: bold;
     font-size: 0.6rem;
+    padding: 0.5rem 0rem;
 }
 
 button {
@@ -46,4 +50,12 @@ button {
     font-size: 0.7rem;
     font-weight: bold;
     border-radius: 0.3rem;
+}
+
+.text {
+    width: 70%;
+}
+
+.cookie {
+    transform: scale(0.6);
 }
