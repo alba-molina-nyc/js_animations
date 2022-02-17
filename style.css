@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-/* body{
+body{
     height: 100vh;
-} */
+}
 
 .cookie-container {
     background: linear-gradient(260deg, #9b6c50 0%, #4f2626 100%);
@@ -19,4 +19,31 @@
     color: white;
     /* to move cookie and text side by side */
     display: flex;
+    width: 20rem;
+    height: 10rem;
+    /* round out corners */
+    border-radius: 1.2rem;
+    padding: 1rem;
+    font-family: "Lato";
+
+}
+
+.cookie-title{ 
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.cookie-subtitle {
+    font-weight: bold;
+    font-size: 0.6rem;
+}
+
+button {
+    border-style: none;
+    /* brings the writing to the center */
+    padding: 0.5rem 1rem;
+    font-family: "Lato";
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 0.3rem;
 }
