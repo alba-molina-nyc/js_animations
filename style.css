@@ -28,6 +28,7 @@ body{
     /* drops everything vertically */
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
 
 }
 
