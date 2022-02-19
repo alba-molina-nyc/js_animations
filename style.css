@@ -20,7 +20,7 @@ body{
     /* to move cookie and text side by side */
     display: flex;
     width: 20rem;
-    height: 13rem;
+    height: 10rem;
     /* round out corners */
     border-radius: 1.2rem;
     padding: 1rem;
@@ -55,7 +55,7 @@ button {
 }
 
 .text {
-    width: 70%;
+    width: 80%;
 }
 
 .cookie {
